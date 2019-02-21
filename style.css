@@ -1,0 +1,54 @@
+body {
+    width: 1024px;
+}
+img {
+    height: 100px;
+}
+.logo {
+    text-align: center;
+    margin: -20px 0px -25px 0px;
+}
+li {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: beige;
+    width: 145px;
+    margin: 20px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+li:hover{
+    background-color: darkgrey;
+}
+.top-menu li {
+    display: inline-block;
+}
+.top-menu {
+    margin: 0px 0px 0px 0px;
+}
+
+.bottom {
+    font-style: italic;
+    color: black;
+    font-size: 15px;
+    margin: 50px 0px 0px 0px;
+    float: right;
+}
+.left-menu {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+.content {
+    margin: 20px 0px 0px 50px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 40px;
+}
+
